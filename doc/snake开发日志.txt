@@ -1,0 +1,23 @@
+项目名称: snake 
+ 
+建立日期: 2025/10/10 周五 22:24:43.80 
+ 
+---------------------------------------------------- 
+version:0.1.0
+
+日期：2025/10/15 周三
+
+编译日志：
+Warning (10230): Verilog HDL assignment warning at pic_rgb_gen.v(609): truncated value with size 10 to match size of target (4)
+原因：像素坐标pix_x做除法位宽由10位降至4位
+处理：意料中的设计，忽略此错误
+Warning (10230): Verilog HDL assignment warning at pic_rgb_gen.v(610): truncated value with size 10 to match size of target (4)
+原因：像素坐标pix_y做除法位宽由10位降至4位
+处理：意料中的设计，忽略此错误
+Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
+原因：FIFO中的满信号fifo_full没有被使用
+处理：为后续更新保留的端口，此版本未被使用，忽略此错误
+
+模块结构：
+top_module为snake.v
+---------------------------------------------------- 
