@@ -1,0 +1,23 @@
+
+State Machine - |snake|pic_rgb_gen:pic_rgb_gen_inst|state
+Name state.GENF state.ARBIT state.LFSR state.TICK state.IDLE 
+state.IDLE 0 0 0 0 0 
+state.TICK 0 0 0 1 1 
+state.LFSR 0 0 1 0 1 
+state.ARBIT 0 1 0 0 1 
+state.GENF 1 0 0 0 1 
+
+State Machine - |snake|pic_rgb_gen:pic_rgb_gen_inst|direct_sig_ctrl:direct_sig_ctrl_inst|direct_reg
+Name direct_reg.RIGHT direct_reg.LEFT direct_reg.DOWN direct_reg.UP 
+direct_reg.RIGHT 0 0 0 0 
+direct_reg.DOWN 1 0 1 0 
+direct_reg.LEFT 1 1 0 0 
+direct_reg.UP 1 0 0 1 
+
+State Machine - |snake|inf_rcv:inf_rcv_inst|inf_rcv_decoder:inf_rcv_decoder_inst|state
+Name state.REPEAT state.DATA state.ARBIT state.N_9MS state.IDLE 
+state.IDLE 0 0 0 0 0 
+state.N_9MS 0 0 0 1 1 
+state.ARBIT 0 0 1 0 1 
+state.DATA 0 1 0 0 1 
+state.REPEAT 1 0 0 0 1 

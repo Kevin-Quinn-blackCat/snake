@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'sys_clk'
+Slack : 13.042
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'pll_25mhz_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 14.475
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'pll_25mhz_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'sys_clk'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'sys_clk'
+Slack : 9.781
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'pll_25mhz_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.717
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'sys_clk'
+Slack : 13.446
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'pll_25mhz_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 15.067
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'pll_25mhz_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'sys_clk'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'sys_clk'
+Slack : 9.770
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'pll_25mhz_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.716
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'sys_clk'
+Slack : 16.788
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'pll_25mhz_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 17.416
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'pll_25mhz_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.137
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'sys_clk'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'sys_clk'
+Slack : 9.434
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'pll_25mhz_inst|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.734
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Oct 15 12:32:01 2025
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : snake
+Top-level Entity Name : snake
+Family : Cyclone IV E
+Total logic elements : 911
+    Total combinational functions : 823
+    Dedicated logic registers : 449
+Total registers : 449
+Total pins : 26
+Total virtual pins : 0
+Total memory bits : 2,560
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
