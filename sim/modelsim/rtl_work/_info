@@ -1,0 +1,396 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/fpga_code/personal_code/snake/sim/modelsim
+T_opt
+!s110 1760491117
+VjVmm?^d=JBYRMg3<V]JzC1
+04 8 4 work tb_snake fast 0
+=1-40c2ba4b7dcb-68eef66c-2c5-ee0
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+n@_opt
+OL;O;10.4;61
+vbcd_8421
+Z1 !s110 1760491114
+!i10b 1
+!s100 22dJJWhbPH2elc<b3KF^S1
+I^F:i@2YJTZlSeA1hMm?ck0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1759822524
+8D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/bcd_8421.v
+FD:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/bcd_8421.v
+L0 1
+Z4 OL;L;10.4;61
+r1
+!s85 0
+31
+!s108 1760491114.268000
+!s107 D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/bcd_8421.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic|D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/bcd_8421.v|
+!i113 0
+Z5 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z6 !s92 -vlog01compat -work work +incdir+D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vdirect_sig_ctrl
+Z7 !s110 1760491112
+!i10b 1
+!s100 Z9l3P?=a=2O2B3b8Z<Ukm1
+I<O]nanc`PeT3:YdgN7g8^3
+R2
+R0
+w1760464011
+8D:/fpga_code/personal_code/snake/rtl/game_ctrl/direct_sig_ctrl.v
+FD:/fpga_code/personal_code/snake/rtl/game_ctrl/direct_sig_ctrl.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1760491112.062000
+!s107 D:/fpga_code/personal_code/snake/rtl/game_ctrl/direct_sig_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/rtl/game_ctrl|D:/fpga_code/personal_code/snake/rtl/game_ctrl/direct_sig_ctrl.v|
+!i113 0
+R5
+Z8 !s92 -vlog01compat -work work +incdir+D:/fpga_code/personal_code/snake/rtl/game_ctrl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vfifo_256x8
+R7
+!i10b 1
+!s100 __HT3SN?P7ZiX>YMD9<F>2
+IAaFMe^hECaHSkW_foU2kL3
+R2
+R0
+w1760364111
+8D:/fpga_code/personal_code/snake/quartus_prj/ip_core/fifo_256x8/fifo_256x8.v
+FD:/fpga_code/personal_code/snake/quartus_prj/ip_core/fifo_256x8/fifo_256x8.v
+Z9 L0 39
+R4
+r1
+!s85 0
+31
+!s108 1760491112.541000
+!s107 D:/fpga_code/personal_code/snake/quartus_prj/ip_core/fifo_256x8/fifo_256x8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/quartus_prj/ip_core/fifo_256x8|D:/fpga_code/personal_code/snake/quartus_prj/ip_core/fifo_256x8/fifo_256x8.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+D:/fpga_code/personal_code/snake/quartus_prj/ip_core/fifo_256x8 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vhc595_ctrl
+R1
+!i10b 1
+!s100 aBPh^NQDFZfedCDI`P^Ug3
+I5IZPIR?4H7zUfA]YJPXgn3
+R2
+R0
+R3
+8D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/hc595_ctrl.v
+FD:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/hc595_ctrl.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1760491114.064000
+!s107 D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/hc595_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic|D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/hc595_ctrl.v|
+!i113 0
+R5
+R6
+vinf_rcv
+Z10 !s110 1760491113
+!i10b 1
+!s100 YTD7NKZ`b<X[OzEBc_I<M1
+IZ>Gb5zY:YR?A^Am9d75I73
+R2
+R0
+w1760463735
+8D:/fpga_code/personal_code/snake/rtl/inf_rcv/inf_rcv.v
+FD:/fpga_code/personal_code/snake/rtl/inf_rcv/inf_rcv.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1760491113.134000
+!s107 D:/fpga_code/personal_code/snake/rtl/inf_rcv/inf_rcv.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/rtl/inf_rcv|D:/fpga_code/personal_code/snake/rtl/inf_rcv/inf_rcv.v|
+!i113 0
+R5
+Z11 !s92 -vlog01compat -work work +incdir+D:/fpga_code/personal_code/snake/rtl/inf_rcv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vinf_rcv_decoder
+R7
+!i10b 1
+!s100 @QUH8MaT_6WX1UHL6aIUC2
+I55On9QB74YaeGNgB[?KRM0
+R2
+R0
+w1759903812
+8D:/fpga_code/personal_code/snake/rtl/inf_rcv/inf_rcv_decoder.v
+FD:/fpga_code/personal_code/snake/rtl/inf_rcv/inf_rcv_decoder.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1760491112.929000
+!s107 D:/fpga_code/personal_code/snake/rtl/inf_rcv/inf_rcv_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/rtl/inf_rcv|D:/fpga_code/personal_code/snake/rtl/inf_rcv/inf_rcv_decoder.v|
+!i113 0
+R5
+R11
+vled_ctrl
+R7
+!i10b 1
+!s100 e]`^Hgh8W?<a;95_W?6?N1
+I]OD>W^i;gW:lXBOO9N]4a3
+R2
+R0
+w1759913699
+8D:/fpga_code/personal_code/snake/rtl/inf_rcv/led_ctrl.v
+FD:/fpga_code/personal_code/snake/rtl/inf_rcv/led_ctrl.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1760491112.745000
+!s107 D:/fpga_code/personal_code/snake/rtl/inf_rcv/led_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/rtl/inf_rcv|D:/fpga_code/personal_code/snake/rtl/inf_rcv/led_ctrl.v|
+!i113 0
+R5
+R11
+vpic_rgb_gen
+R1
+!i10b 1
+!s100 mzRHjDLK5b4doBfNW1c^;3
+IOJVjfGBNW<0>oJEHE:Oa51
+R2
+R0
+w1760491093
+8D:/fpga_code/personal_code/snake/rtl/vga/pic_rgb_gen.v
+FD:/fpga_code/personal_code/snake/rtl/vga/pic_rgb_gen.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1760491114.610000
+!s107 D:/fpga_code/personal_code/snake/rtl/vga/pic_rgb_gen.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/rtl/vga|D:/fpga_code/personal_code/snake/rtl/vga/pic_rgb_gen.v|
+!i113 0
+R5
+Z12 !s92 -vlog01compat -work work +incdir+D:/fpga_code/personal_code/snake/rtl/vga -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vpll_25mhz
+R7
+!i10b 1
+!s100 KTZ<2[m_:9dQ8o^LTcobB3
+I:3U:gR[WHdlUToElR54eC1
+R2
+R0
+w1760363846
+8D:/fpga_code/personal_code/snake/quartus_prj/ip_core/PLL25MHz/pll_25mhz.v
+FD:/fpga_code/personal_code/snake/quartus_prj/ip_core/PLL25MHz/pll_25mhz.v
+R9
+R4
+r1
+!s85 0
+31
+!s108 1760491112.357000
+!s107 D:/fpga_code/personal_code/snake/quartus_prj/ip_core/PLL25MHz/pll_25mhz.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/quartus_prj/ip_core/PLL25MHz|D:/fpga_code/personal_code/snake/quartus_prj/ip_core/PLL25MHz/pll_25mhz.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+D:/fpga_code/personal_code/snake/quartus_prj/ip_core/PLL25MHz -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vpll_25mhz_altpll
+R1
+!i10b 1
+!s100 ei3^^fNX0Hzd0kC8zGH>O3
+I]VK[JXUA><GNIW;61H4_e2
+R2
+R0
+w1760464101
+8D:/fpga_code/personal_code/snake/quartus_prj/db/pll_25mhz_altpll.v
+FD:/fpga_code/personal_code/snake/quartus_prj/db/pll_25mhz_altpll.v
+L0 30
+R4
+r1
+!s85 0
+31
+!s108 1760491114.740000
+!s107 D:/fpga_code/personal_code/snake/quartus_prj/db/pll_25mhz_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/quartus_prj/db|D:/fpga_code/personal_code/snake/quartus_prj/db/pll_25mhz_altpll.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+D:/fpga_code/personal_code/snake/quartus_prj/db -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vprbs32_to_8
+R10
+!i10b 1
+!s100 @UNEH3>5Mf[3k8Dbedn]T1
+IgU5KW^XYI<`K_j[^_mA3A2
+R2
+R0
+w1760461288
+8D:/fpga_code/personal_code/snake/rtl/lfsr/prbs32_to_8.v
+FD:/fpga_code/personal_code/snake/rtl/lfsr/prbs32_to_8.v
+L0 17
+R4
+r1
+!s85 0
+31
+!s108 1760491113.318000
+!s107 D:/fpga_code/personal_code/snake/rtl/lfsr/prbs32_to_8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/rtl/lfsr|D:/fpga_code/personal_code/snake/rtl/lfsr/prbs32_to_8.v|
+!i113 0
+R5
+Z13 !s92 -vlog01compat -work work +incdir+D:/fpga_code/personal_code/snake/rtl/lfsr -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vprbs8bit
+R10
+!i10b 1
+!s100 YbY5`Z_578JAC5obEhG1F3
+IB=]R^?6Cb`Og;Fn41E;z70
+R2
+R0
+w1760464956
+8D:/fpga_code/personal_code/snake/rtl/lfsr/prbs8bit.v
+FD:/fpga_code/personal_code/snake/rtl/lfsr/prbs8bit.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1760491113.533000
+!s107 D:/fpga_code/personal_code/snake/rtl/lfsr/prbs8bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/rtl/lfsr|D:/fpga_code/personal_code/snake/rtl/lfsr/prbs8bit.v|
+!i113 0
+R5
+R13
+vram_256x2
+R7
+!i10b 1
+!s100 6mBAc??C=aW=eXBBN8dSd0
+I]ilE4]^C1_2nRUS^<C6TX1
+R2
+R0
+w1760363738
+8D:/fpga_code/personal_code/snake/quartus_prj/ip_core/ram_256x2/ram_256x2.v
+FD:/fpga_code/personal_code/snake/quartus_prj/ip_core/ram_256x2/ram_256x2.v
+R9
+R4
+r1
+!s85 0
+31
+!s108 1760491112.203000
+!s107 D:/fpga_code/personal_code/snake/quartus_prj/ip_core/ram_256x2/ram_256x2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/quartus_prj/ip_core/ram_256x2|D:/fpga_code/personal_code/snake/quartus_prj/ip_core/ram_256x2/ram_256x2.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+D:/fpga_code/personal_code/snake/quartus_prj/ip_core/ram_256x2 -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vseg_595_dynamic
+R10
+!i10b 1
+!s100 LHE3LoYKi68YTLQFM[MEl0
+I28C4iaNEhzM[Pz<]GUGH03
+R2
+R0
+w1759822523
+8D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/seg_595_dynamic.v
+FD:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/seg_595_dynamic.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1760491113.879000
+!s107 D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/seg_595_dynamic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic|D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/seg_595_dynamic.v|
+!i113 0
+R5
+R6
+vseg_dynamic
+R10
+!i10b 1
+!s100 03ClNgjBKE2D>hLRfPJOY3
+I1XEFN_;ciejnVQ]7jSNQ33
+R2
+R0
+w1759822509
+8D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/seg_dynamic.v
+FD:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/seg_dynamic.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1760491113.719000
+!s107 D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/seg_dynamic.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic|D:/fpga_code/personal_code/snake/rtl/seg_595_dynamic/seg_dynamic.v|
+!i113 0
+R5
+R6
+vsnake
+!s110 1760491111
+!i10b 1
+!s100 cPI[9JTijVA>N_<C^E;cj3
+I9[n76K2AWzz0g5aQ^jDJK2
+R2
+R0
+w1760490011
+8D:/fpga_code/personal_code/snake/rtl/game_ctrl/snake.v
+FD:/fpga_code/personal_code/snake/rtl/game_ctrl/snake.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1760491111.877000
+!s107 D:/fpga_code/personal_code/snake/rtl/game_ctrl/snake.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/rtl/game_ctrl|D:/fpga_code/personal_code/snake/rtl/game_ctrl/snake.v|
+!i113 0
+R5
+R8
+vtb_snake
+R1
+!i10b 1
+!s100 C76Qf0]cdT_]MeRiV]Pz@2
+IM7IE?X48<Bbjf^Z?J2<B12
+R2
+R0
+w1760488982
+8D:/fpga_code/personal_code/snake/quartus_prj/../sim/tb_snake.v
+FD:/fpga_code/personal_code/snake/quartus_prj/../sim/tb_snake.v
+L0 3
+R4
+r1
+!s85 0
+31
+!s108 1760491114.934000
+!s107 D:/fpga_code/personal_code/snake/quartus_prj/../sim/tb_snake.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/quartus_prj/../sim|D:/fpga_code/personal_code/snake/quartus_prj/../sim/tb_snake.v|
+!i113 0
+R5
+!s92 -vlog01compat -work work +incdir+D:/fpga_code/personal_code/snake/quartus_prj/../sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vvga_ctrl
+R1
+!i10b 1
+!s100 76L]]Ph9@BHiUfIY_IL1?2
+I^d;BSF]Ldff8W:Pg6nIbX3
+R2
+R0
+w1760262705
+8D:/fpga_code/personal_code/snake/rtl/vga/vga_ctrl.v
+FD:/fpga_code/personal_code/snake/rtl/vga/vga_ctrl.v
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1760491114.462000
+!s107 D:/fpga_code/personal_code/snake/rtl/vga/vga_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/fpga_code/personal_code/snake/rtl/vga|D:/fpga_code/personal_code/snake/rtl/vga/vga_ctrl.v|
+!i113 0
+R5
+R12
